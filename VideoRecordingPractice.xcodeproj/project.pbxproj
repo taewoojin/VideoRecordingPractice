@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA9FF5DCABA1F6A4077C077 /* Pods_VideoRecordingPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5049D993FEA16FCDF485E51 /* Pods_VideoRecordingPractice.framework */; };
+		74FD4560242A06A300911C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD455F242A06A300911C8C /* AppDelegate.swift */; };
+		74FD4562242A06A300911C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD4561242A06A300911C8C /* SceneDelegate.swift */; };
+		74FD4564242A06A300911C8C /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD4563242A06A300911C8C /* RecordingViewController.swift */; };
+		74FD4567242A06A300911C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FD4565242A06A300911C8C /* Main.storyboard */; };
+		74FD4569242A06A700911C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FD4568242A06A700911C8C /* Assets.xcassets */; };
+		74FD456C242A06A700911C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FD456A242A06A700911C8C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72392ED897DBF4B009C60E3D /* Pods-VideoRecordingPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRecordingPractice.release.xcconfig"; path = "Target Support Files/Pods-VideoRecordingPractice/Pods-VideoRecordingPractice.release.xcconfig"; sourceTree = "<group>"; };
+		74FD455C242A06A300911C8C /* VideoRecordingPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRecordingPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FD455F242A06A300911C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74FD4561242A06A300911C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74FD4563242A06A300911C8C /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		74FD4566242A06A300911C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74FD4568242A06A700911C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74FD456B242A06A700911C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74FD456D242A06A700911C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5049D993FEA16FCDF485E51 /* Pods_VideoRecordingPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoRecordingPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77DEC157DD872173BB73EE7 /* Pods-VideoRecordingPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRecordingPractice.debug.xcconfig"; path = "Target Support Files/Pods-VideoRecordingPractice/Pods-VideoRecordingPractice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74FD4559242A06A300911C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA9FF5DCABA1F6A4077C077 /* Pods_VideoRecordingPractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2BFDD879529E863CF95241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5049D993FEA16FCDF485E51 /* Pods_VideoRecordingPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74FD4553242A06A300911C8C = {
+			isa = PBXGroup;
+			children = (
+				74FD455E242A06A300911C8C /* VideoRecordingPractice */,
+				74FD455D242A06A300911C8C /* Products */,
+				F2A841A7355B4FA86ACE14F0 /* Pods */,
+				5F2BFDD879529E863CF95241 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74FD455D242A06A300911C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74FD455C242A06A300911C8C /* VideoRecordingPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FD455E242A06A300911C8C /* VideoRecordingPractice */ = {
+			isa = PBXGroup;
+			children = (
+				74FD455F242A06A300911C8C /* AppDelegate.swift */,
+				74FD4561242A06A300911C8C /* SceneDelegate.swift */,
+				74FD4563242A06A300911C8C /* RecordingViewController.swift */,
+				74FD4565242A06A300911C8C /* Main.storyboard */,
+				74FD4568242A06A700911C8C /* Assets.xcassets */,
+				74FD456A242A06A700911C8C /* LaunchScreen.storyboard */,
+				74FD456D242A06A700911C8C /* Info.plist */,
+			);
+			path = VideoRecordingPractice;
+			sourceTree = "<group>";
+		};
+		F2A841A7355B4FA86ACE14F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F77DEC157DD872173BB73EE7 /* Pods-VideoRecordingPractice.debug.xcconfig */,
+				72392ED897DBF4B009C60E3D /* Pods-VideoRecordingPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74FD455B242A06A300911C8C /* VideoRecordingPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FD4570242A06A700911C8C /* Build configuration list for PBXNativeTarget "VideoRecordingPractice" */;
+			buildPhases = (
+				73149AEE6E4B82F79ADFE35F /* [CP] Check Pods Manifest.lock */,
+				74FD4558242A06A300911C8C /* Sources */,
+				74FD4559242A06A300911C8C /* Frameworks */,
+				74FD455A242A06A300911C8C /* Resources */,
+				0C5AD81ADEADE844B77826A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoRecordingPractice;
+			productName = VideoRecordingPractice;
+			productReference = 74FD455C242A06A300911C8C /* VideoRecordingPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74FD4554242A06A300911C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = taewoo;
+				TargetAttributes = {
+					74FD455B242A06A300911C8C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 74FD4557242A06A300911C8C /* Build configuration list for PBXProject "VideoRecordingPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74FD4553242A06A300911C8C;
+			productRefGroup = 74FD455D242A06A300911C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FD455B242A06A300911C8C /* VideoRecordingPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74FD455A242A06A300911C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FD456C242A06A700911C8C /* LaunchScreen.storyboard in Resources */,
+				74FD4569242A06A700911C8C /* Assets.xcassets in Resources */,
+				74FD4567242A06A300911C8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5AD81ADEADE844B77826A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoRecordingPractice/Pods-VideoRecordingPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoRecordingPractice/Pods-VideoRecordingPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoRecordingPractice/Pods-VideoRecordingPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73149AEE6E4B82F79ADFE35F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoRecordingPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74FD4558242A06A300911C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FD4564242A06A300911C8C /* RecordingViewController.swift in Sources */,
+				74FD4560242A06A300911C8C /* AppDelegate.swift in Sources */,
+				74FD4562242A06A300911C8C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FD4565242A06A300911C8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FD4566242A06A300911C8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74FD456A242A06A700911C8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FD456B242A06A700911C8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74FD456E242A06A700911C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74FD456F242A06A700911C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74FD4571242A06A700911C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77DEC157DD872173BB73EE7 /* Pods-VideoRecordingPractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22VQ353X6R;
+				INFOPLIST_FILE = VideoRecordingPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewoo.VideoRecordingPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74FD4572242A06A700911C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72392ED897DBF4B009C60E3D /* Pods-VideoRecordingPractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22VQ353X6R;
+				INFOPLIST_FILE = VideoRecordingPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taewoo.VideoRecordingPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74FD4557242A06A300911C8C /* Build configuration list for PBXProject "VideoRecordingPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FD456E242A06A700911C8C /* Debug */,
+				74FD456F242A06A700911C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FD4570242A06A700911C8C /* Build configuration list for PBXNativeTarget "VideoRecordingPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FD4571242A06A700911C8C /* Debug */,
+				74FD4572242A06A700911C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74FD4554242A06A300911C8C /* Project object */;
+}

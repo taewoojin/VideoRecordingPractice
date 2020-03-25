@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-VideoRecordingPractice/Pods-VideoRecordingPractice-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework
