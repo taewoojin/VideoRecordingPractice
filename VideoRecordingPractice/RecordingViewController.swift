@@ -20,10 +20,15 @@ class RecordingViewController: UIViewController {
   // MARK:- Properties
   
   var disposeBag = DisposeBag()
+  
   let captureSession = AVCaptureSession()
-  var captureDevice: AVCaptureDevice!
-  var deviceInput: AVCaptureDeviceInput!
-  var dataOutput: AVCaptureVideoDataOutput!
+  
+  var videoDevice: AVCaptureDevice!
+  
+  var videoInput: AVCaptureDeviceInput!
+  
+  var audioInput: AVCaptureDeviceInput!
+  
   var videoOutput: AVCaptureMovieFileOutput!
   
   lazy var previewLayer = AVCaptureVideoPreviewLayer(session: self.captureSession).then {
@@ -59,6 +64,10 @@ class RecordingViewController: UIViewController {
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     initMotionManager()
+    
+    if !captureSession.isRunning {
+      captureSession.startRunning()
+    }
   }
   
   override func viewWillDisappear(_ animated: Bool) {
@@ -72,12 +81,8 @@ class RecordingViewController: UIViewController {
     
     layout()
     bind()
-    captureDevice = bestDevice(in: .back)
+    videoDevice = bestDevice(in: .back)
     setupSession()
-    
-    if !captureSession.isRunning {
-      captureSession.startRunning()
-    }
   }
   
   
@@ -150,13 +155,13 @@ class RecordingViewController: UIViewController {
     do {
       captureSession.beginConfiguration()
       
-      deviceInput = try AVCaptureDeviceInput(device: captureDevice!)
-      if captureSession.canAddInput(deviceInput) {
-        captureSession.addInput(deviceInput)
+      videoInput = try AVCaptureDeviceInput(device: videoDevice!)
+      if captureSession.canAddInput(videoInput) {
+        captureSession.addInput(videoInput)
       }
 
-      let microphone = AVCaptureDevice.default(for: AVMediaType.audio)!
-      let audioInput = try AVCaptureDeviceInput(device: microphone)
+      let audioDevice = AVCaptureDevice.default(for: AVMediaType.audio)!
+      audioInput = try AVCaptureDeviceInput(device: audioDevice)
       if captureSession.canAddInput(audioInput) {
         captureSession.addInput(audioInput)
       }
@@ -212,7 +217,7 @@ class RecordingViewController: UIViewController {
     }
     
     do {
-      deviceInput = try AVCaptureDeviceInput(device: newDevice!)
+      videoInput = try AVCaptureDeviceInput(device: newDevice!)
     } catch let error {
       NSLog("\(error), \(error.localizedDescription)")
       return
@@ -220,7 +225,7 @@ class RecordingViewController: UIViewController {
     
     // Swap capture device inputs
     captureSession.removeInput(input)
-    captureSession.addInput(deviceInput!)
+    captureSession.addInput(videoInput!)
   }
   
   
@@ -234,7 +239,7 @@ class RecordingViewController: UIViewController {
       connection?.videoOrientation = self.deviceOrientation
     }
     
-    let device = deviceInput.device
+    let device = videoInput.device
     if (device.isSmoothAutoFocusSupported) {
       do {
         try device.lockForConfiguration()
